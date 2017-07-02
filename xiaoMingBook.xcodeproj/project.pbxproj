@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845712F81F08C8F40006865A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845712F71F08C8F40006865A /* AppDelegate.swift */; };
+		845712FF1F08C8F40006865A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845712FE1F08C8F40006865A /* Assets.xcassets */; };
+		845713021F08C8F40006865A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845713001F08C8F40006865A /* LaunchScreen.storyboard */; };
+		8457130A1F08CB710006865A /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845713091F08CB710006865A /* AFNetworking.framework */; };
+		8457130C1F08CB750006865A /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457130B1F08CB750006865A /* AlamofireImage.framework */; };
+		8457130E1F08CB770006865A /* ImageSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457130D1F08CB770006865A /* ImageSlideshow.framework */; };
+		845713101F08CB7D0006865A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457130F1F08CB7D0006865A /* SDWebImage.framework */; };
+		845713121F08CB800006865A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845713111F08CB800006865A /* Alamofire.framework */; };
+		845713151F08CC2C0006865A /* BSNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845713141F08CC2C0006865A /* BSNav.swift */; };
+		845713191F08CC840006865A /* mainTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845713181F08CC840006865A /* mainTBVC.swift */; };
+		8457131B1F08CFB00006865A /* BSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457131A1F08CFB00006865A /* BSTableVC.swift */; };
+		8457131D1F08DE670006865A /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457131C1F08DE670006865A /* NetWorkTools.swift */; };
+		E527C42704A93CB4D9588C81 /* Pods_xiaoMingBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B44490D28260A8E05BFACA /* Pods_xiaoMingBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3796FAEC0B2FD853FFE00C5C /* Pods-xiaoMingBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoMingBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook.release.xcconfig"; sourceTree = "<group>"; };
+		839F42B5DBDDCD72B46F9B43 /* Pods-xiaoMingBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoMingBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook.debug.xcconfig"; sourceTree = "<group>"; };
+		845712F41F08C8F40006865A /* xiaoMingBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaoMingBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845712F71F08C8F40006865A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845712FE1F08C8F40006865A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845713011F08C8F40006865A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845713031F08C8F40006865A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845713091F08CB710006865A /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		8457130B1F08CB750006865A /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "../../Library/Developer/Xcode/DerivedData/xiaoMingBook-codxqcxxfrevpfffskddkontxolu/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
+		8457130D1F08CB770006865A /* ImageSlideshow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageSlideshow.framework; path = "../../Library/Developer/Xcode/DerivedData/xiaoMingBook-codxqcxxfrevpfffskddkontxolu/Build/Products/Debug-iphonesimulator/ImageSlideshow/ImageSlideshow.framework"; sourceTree = "<group>"; };
+		8457130F1F08CB7D0006865A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		845713111F08CB800006865A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/xiaoMingBook-codxqcxxfrevpfffskddkontxolu/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		845713141F08CC2C0006865A /* BSNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSNav.swift; sourceTree = "<group>"; };
+		845713181F08CC840006865A /* mainTBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTBVC.swift; sourceTree = "<group>"; };
+		8457131A1F08CFB00006865A /* BSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTableVC.swift; sourceTree = "<group>"; };
+		8457131C1F08DE670006865A /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		96B44490D28260A8E05BFACA /* Pods_xiaoMingBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoMingBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845712F11F08C8F40006865A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845713121F08CB800006865A /* Alamofire.framework in Frameworks */,
+				845713101F08CB7D0006865A /* SDWebImage.framework in Frameworks */,
+				8457130E1F08CB770006865A /* ImageSlideshow.framework in Frameworks */,
+				8457130C1F08CB750006865A /* AlamofireImage.framework in Frameworks */,
+				8457130A1F08CB710006865A /* AFNetworking.framework in Frameworks */,
+				E527C42704A93CB4D9588C81 /* Pods_xiaoMingBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B12558A04D81FBF4241FC55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845713111F08CB800006865A /* Alamofire.framework */,
+				8457130F1F08CB7D0006865A /* SDWebImage.framework */,
+				8457130D1F08CB770006865A /* ImageSlideshow.framework */,
+				8457130B1F08CB750006865A /* AlamofireImage.framework */,
+				845713091F08CB710006865A /* AFNetworking.framework */,
+				96B44490D28260A8E05BFACA /* Pods_xiaoMingBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		807FF8666AAD4B4554876ABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				839F42B5DBDDCD72B46F9B43 /* Pods-xiaoMingBook.debug.xcconfig */,
+				3796FAEC0B2FD853FFE00C5C /* Pods-xiaoMingBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		845712EB1F08C8F40006865A = {
+			isa = PBXGroup;
+			children = (
+				845712F61F08C8F40006865A /* xiaoMingBook */,
+				845712F51F08C8F40006865A /* Products */,
+				807FF8666AAD4B4554876ABA /* Pods */,
+				4B12558A04D81FBF4241FC55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		845712F51F08C8F40006865A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845712F41F08C8F40006865A /* xiaoMingBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845712F61F08C8F40006865A /* xiaoMingBook */ = {
+			isa = PBXGroup;
+			children = (
+				845713131F08CB9B0006865A /* bookshelf */,
+				845712F71F08C8F40006865A /* AppDelegate.swift */,
+				845713181F08CC840006865A /* mainTBVC.swift */,
+				8457131C1F08DE670006865A /* NetWorkTools.swift */,
+				845712FE1F08C8F40006865A /* Assets.xcassets */,
+				845713001F08C8F40006865A /* LaunchScreen.storyboard */,
+				845713031F08C8F40006865A /* Info.plist */,
+			);
+			path = xiaoMingBook;
+			sourceTree = "<group>";
+		};
+		845713131F08CB9B0006865A /* bookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				845713141F08CC2C0006865A /* BSNav.swift */,
+				8457131A1F08CFB00006865A /* BSTableVC.swift */,
+			);
+			name = bookshelf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845712F31F08C8F40006865A /* xiaoMingBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845713061F08C8F40006865A /* Build configuration list for PBXNativeTarget "xiaoMingBook" */;
+			buildPhases = (
+				29C7DB1853B2FCD6ABC9DAF7 /* [CP] Check Pods Manifest.lock */,
+				845712F01F08C8F40006865A /* Sources */,
+				845712F11F08C8F40006865A /* Frameworks */,
+				845712F21F08C8F40006865A /* Resources */,
+				48889EB1503BBF38F0AB2413 /* [CP] Embed Pods Frameworks */,
+				441D0F4EB7948C0D61E7426D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xiaoMingBook;
+			productName = xiaoMingBook;
+			productReference = 845712F41F08C8F40006865A /* xiaoMingBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845712EC1F08C8F40006865A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "任茗赫";
+				TargetAttributes = {
+					845712F31F08C8F40006865A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3H3HQC3497;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 845712EF1F08C8F40006865A /* Build configuration list for PBXProject "xiaoMingBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845712EB1F08C8F40006865A;
+			productRefGroup = 845712F51F08C8F40006865A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845712F31F08C8F40006865A /* xiaoMingBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845712F21F08C8F40006865A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845713021F08C8F40006865A /* LaunchScreen.storyboard in Resources */,
+				845712FF1F08C8F40006865A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29C7DB1853B2FCD6ABC9DAF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		441D0F4EB7948C0D61E7426D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48889EB1503BBF38F0AB2413 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845712F01F08C8F40006865A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8457131D1F08DE670006865A /* NetWorkTools.swift in Sources */,
+				845713151F08CC2C0006865A /* BSNav.swift in Sources */,
+				845712F81F08C8F40006865A /* AppDelegate.swift in Sources */,
+				845713191F08CC840006865A /* mainTBVC.swift in Sources */,
+				8457131B1F08CFB00006865A /* BSTableVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845713001F08C8F40006865A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845713011F08C8F40006865A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845713041F08C8F40006865A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845713051F08C8F40006865A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845713071F08C8F40006865A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839F42B5DBDDCD72B46F9B43 /* Pods-xiaoMingBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3H3HQC3497;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
+				INFOPLIST_FILE = xiaoMingBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.163.xiaoMingBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		845713081F08C8F40006865A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3796FAEC0B2FD853FFE00C5C /* Pods-xiaoMingBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3H3HQC3497;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
+				INFOPLIST_FILE = xiaoMingBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.163.xiaoMingBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845712EF1F08C8F40006865A /* Build configuration list for PBXProject "xiaoMingBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845713041F08C8F40006865A /* Debug */,
+				845713051F08C8F40006865A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845713061F08C8F40006865A /* Build configuration list for PBXNativeTarget "xiaoMingBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845713071F08C8F40006865A /* Debug */,
+				845713081F08C8F40006865A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845712EC1F08C8F40006865A /* Project object */;
+}
