@@ -21,10 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         mainTB.tabBar.backgroundColor = UIColor.white;
         let bookshelfVC = BSTableVC();    // 书架
         let featured = UIViewController();    // 精选
-        let stacks = UIViewController();    // 书库
+        let stacks = stacksTableVC();    // 书库
         let find = UIViewController();    // 发现
         
         let bookshelNav = BSNav(rootViewController: bookshelfVC);
+        let stacksNavs = stacksNav(rootViewController: stacks);
         
         bookshelNav.tabBarItem = UITabBarItem(
             title: "书架",
@@ -36,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             image: UIImage(named: "featured.png"),
             selectedImage: UIImage(named: "featured.png")
         );
-        stacks.tabBarItem = UITabBarItem(
+        stacksNavs.tabBarItem = UITabBarItem(
             title: "书库",
             image: UIImage(named: "stacks.png"),
             selectedImage: UIImage(named: "stacks.png")
@@ -47,7 +48,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             selectedImage: UIImage(named: "find.png")
         );
         
-        mainTB.viewControllers = [bookshelNav, featured, stacks, find];
+        mainTB.viewControllers = [bookshelNav, featured, stacksNavs, find];
         self.window?.rootViewController = mainTB;
         self.window?.makeKeyAndVisible();
         return true

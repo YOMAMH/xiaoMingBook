@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8433B4F11F0A8E6300A99A1D /* stacksNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B4F01F0A8E6300A99A1D /* stacksNav.swift */; };
+		8433B4F91F0A90D000A99A1D /* stacksTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B4F81F0A90D000A99A1D /* stacksTableVC.swift */; };
+		8433B4FC1F0A914D00A99A1D /* stacksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B4FA1F0A914D00A99A1D /* stacksCell.swift */; };
+		8433B4FD1F0A914D00A99A1D /* stacksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433B4FB1F0A914D00A99A1D /* stacksCell.xib */; };
 		845712F81F08C8F40006865A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845712F71F08C8F40006865A /* AppDelegate.swift */; };
 		845712FF1F08C8F40006865A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845712FE1F08C8F40006865A /* Assets.xcassets */; };
 		845713021F08C8F40006865A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845713001F08C8F40006865A /* LaunchScreen.storyboard */; };
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		3796FAEC0B2FD853FFE00C5C /* Pods-xiaoMingBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoMingBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook.release.xcconfig"; sourceTree = "<group>"; };
 		839F42B5DBDDCD72B46F9B43 /* Pods-xiaoMingBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoMingBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook.debug.xcconfig"; sourceTree = "<group>"; };
+		8433B4F01F0A8E6300A99A1D /* stacksNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksNav.swift; sourceTree = "<group>"; };
+		8433B4F81F0A90D000A99A1D /* stacksTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksTableVC.swift; sourceTree = "<group>"; };
+		8433B4FA1F0A914D00A99A1D /* stacksCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksCell.swift; sourceTree = "<group>"; };
+		8433B4FB1F0A914D00A99A1D /* stacksCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = stacksCell.xib; sourceTree = "<group>"; };
 		845712F41F08C8F40006865A /* xiaoMingBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaoMingBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845712F71F08C8F40006865A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845712FE1F08C8F40006865A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +89,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8433B4EF1F0A8E3300A99A1D /* stacks */ = {
+			isa = PBXGroup;
+			children = (
+				8433B4F01F0A8E6300A99A1D /* stacksNav.swift */,
+				8433B4F81F0A90D000A99A1D /* stacksTableVC.swift */,
+				8433B4FA1F0A914D00A99A1D /* stacksCell.swift */,
+				8433B4FB1F0A914D00A99A1D /* stacksCell.xib */,
+			);
+			name = stacks;
+			sourceTree = "<group>";
+		};
 		845712EB1F08C8F40006865A = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +121,7 @@
 		845712F61F08C8F40006865A /* xiaoMingBook */ = {
 			isa = PBXGroup;
 			children = (
+				8433B4EF1F0A8E3300A99A1D /* stacks */,
 				845713131F08CB9B0006865A /* bookshelf */,
 				845712F71F08C8F40006865A /* AppDelegate.swift */,
 				845713181F08CC840006865A /* mainTBVC.swift */,
@@ -187,6 +207,7 @@
 			files = (
 				845713021F08C8F40006865A /* LaunchScreen.storyboard in Resources */,
 				845712FF1F08C8F40006865A /* Assets.xcassets in Resources */,
+				8433B4FD1F0A914D00A99A1D /* stacksCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8433B4F11F0A8E6300A99A1D /* stacksNav.swift in Sources */,
 				8457131D1F08DE670006865A /* NetWorkTools.swift in Sources */,
 				845713151F08CC2C0006865A /* BSNav.swift in Sources */,
+				8433B4F91F0A90D000A99A1D /* stacksTableVC.swift in Sources */,
+				8433B4FC1F0A914D00A99A1D /* stacksCell.swift in Sources */,
 				845712F81F08C8F40006865A /* AppDelegate.swift in Sources */,
 				845713191F08CC840006865A /* mainTBVC.swift in Sources */,
 				8457131B1F08CFB00006865A /* BSTableVC.swift in Sources */,
