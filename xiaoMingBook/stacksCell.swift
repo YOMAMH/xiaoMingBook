@@ -10,6 +10,11 @@ import UIKit
 
 class stacksCell: UITableViewCell {
 
+    @IBAction func typeDetail(_ sender: UIButton) {
+        
+    }
+    @IBOutlet weak var typeTitle: UILabel!
+    @IBOutlet weak var typeIcon: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

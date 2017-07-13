@@ -1,52 +1,36 @@
 //
-//  stacksTableVC.swift
+//  stacksItemVC.swift
 //  xiaoMingBook
 //
-//  Created by 任茗赫 on 2017/7/3.
+//  Created by 任茗赫 on 2017/7/12.
 //  Copyright © 2017年 任茗赫. All rights reserved.
 //
 
 import UIKit
-import SDWebImage
 import SVProgressHUD
-let shareNetwork = NetworkManager.shared;
-let Domain = "http://127.0.0.1:8000/";
-var dataSet : AnyObject = [] as AnyObject;
 
 
-class stacksTableVC: UITableViewController {
+class stacksItemVC: UITableViewController {
     
-    
+    var booItemTitle = "";
+    var dataSet : AnyObject = [] as AnyObject;
+    var index = 0;
+       
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "书库";
-        
         SVProgressHUD.show();
-        // 请求分类数据
-        shareNetwork.request(requestType: HTTPRequestMethod.GET, urlString: Domain.appending("stacks/category/"), parameters: nil) { (res) in
+        
+        shareNetwork.request(requestType: HTTPRequestMethod.GET, urlString: Domain.appending("stacks/all/").appending(String(index)).appending("/"), parameters: nil) { (res) in
             SVProgressHUD.dismiss();
-            let resObj = res as AnyObject;
-            let status = resObj["status"] as! Int;
-            if (status == 200) {
-               dataSet = resObj["dataSet"] as AnyObject;
-                // 加载xib
-                let cellNib = UINib(nibName: "stacksCell", bundle: nil);
-                self.tableView.register(cellNib, forCellReuseIdentifier: "cell");
-                // 取消cell分割线
-                self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none;
-                self.tableView.reloadData();
-
-            }
+            print(res!);
         }
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        
-
-        
+       
     }
 
     override func didReceiveMemoryWarning() {
@@ -58,39 +42,25 @@ class stacksTableVC: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return dataSet.count;
+        return 0
     }
+    
+    
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! stacksCell
-    
-        cell.typeTitle.text = (dataSet[indexPath.row] as AnyObject)["category_title"] as? String;
-        let str = (dataSet[indexPath.row] as AnyObject)["icon"] as? String;
-        cell.typeIcon.sd_setImage(with: NSURL(string: str!)! as URL);
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+
+        // Configure the cell...
 
         return cell
     }
-    
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
-    }
-
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let bookType = (dataSet[indexPath.row] as AnyObject)["category_title"] as? String;
-        
-        let bookItem = stacksItemVC();
-        bookItem.booItemTitle = bookType!;
-        self.navigationController?.pushViewController(bookItem, animated: true);
-    
-    }
-    
+    */
 
     /*
     // Override to support conditional editing of the table view.
@@ -127,14 +97,16 @@ class stacksTableVC: UITableViewController {
     }
     */
 
-    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//       
-//    }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
     
 
+    
 }

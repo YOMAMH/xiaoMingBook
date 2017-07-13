@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842D6B3B1F0E8795007306BF /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D6B3A1F0E8795007306BF /* ViewController1.swift */; };
 		8433B4F11F0A8E6300A99A1D /* stacksNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B4F01F0A8E6300A99A1D /* stacksNav.swift */; };
 		8433B4F91F0A90D000A99A1D /* stacksTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B4F81F0A90D000A99A1D /* stacksTableVC.swift */; };
 		8433B4FC1F0A914D00A99A1D /* stacksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B4FA1F0A914D00A99A1D /* stacksCell.swift */; };
@@ -14,21 +15,22 @@
 		845712F81F08C8F40006865A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845712F71F08C8F40006865A /* AppDelegate.swift */; };
 		845712FF1F08C8F40006865A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845712FE1F08C8F40006865A /* Assets.xcassets */; };
 		845713021F08C8F40006865A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845713001F08C8F40006865A /* LaunchScreen.storyboard */; };
-		8457130A1F08CB710006865A /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845713091F08CB710006865A /* AFNetworking.framework */; };
 		8457130C1F08CB750006865A /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457130B1F08CB750006865A /* AlamofireImage.framework */; };
 		8457130E1F08CB770006865A /* ImageSlideshow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457130D1F08CB770006865A /* ImageSlideshow.framework */; };
-		845713101F08CB7D0006865A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8457130F1F08CB7D0006865A /* SDWebImage.framework */; };
 		845713121F08CB800006865A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845713111F08CB800006865A /* Alamofire.framework */; };
 		845713151F08CC2C0006865A /* BSNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845713141F08CC2C0006865A /* BSNav.swift */; };
 		845713191F08CC840006865A /* mainTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845713181F08CC840006865A /* mainTBVC.swift */; };
 		8457131B1F08CFB00006865A /* BSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457131A1F08CFB00006865A /* BSTableVC.swift */; };
 		8457131D1F08DE670006865A /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457131C1F08DE670006865A /* NetWorkTools.swift */; };
-		E527C42704A93CB4D9588C81 /* Pods_xiaoMingBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B44490D28260A8E05BFACA /* Pods_xiaoMingBook.framework */; };
+		845BBC501F165AAF00927F35 /* stacksItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BBC4F1F165AAF00927F35 /* stacksItemVC.swift */; };
+		8D9442902AEC675247C64D9C /* Pods_xiaoMingBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0560A93D3E1658B2CAEE3DA6 /* Pods_xiaoMingBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0560A93D3E1658B2CAEE3DA6 /* Pods_xiaoMingBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoMingBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3796FAEC0B2FD853FFE00C5C /* Pods-xiaoMingBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoMingBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook.release.xcconfig"; sourceTree = "<group>"; };
 		839F42B5DBDDCD72B46F9B43 /* Pods-xiaoMingBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoMingBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook.debug.xcconfig"; sourceTree = "<group>"; };
+		842D6B3A1F0E8795007306BF /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		8433B4F01F0A8E6300A99A1D /* stacksNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksNav.swift; sourceTree = "<group>"; };
 		8433B4F81F0A90D000A99A1D /* stacksTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksTableVC.swift; sourceTree = "<group>"; };
 		8433B4FA1F0A914D00A99A1D /* stacksCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksCell.swift; sourceTree = "<group>"; };
@@ -38,16 +40,14 @@
 		845712FE1F08C8F40006865A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845713011F08C8F40006865A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845713031F08C8F40006865A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		845713091F08CB710006865A /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		8457130B1F08CB750006865A /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "../../Library/Developer/Xcode/DerivedData/xiaoMingBook-codxqcxxfrevpfffskddkontxolu/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework"; sourceTree = "<group>"; };
 		8457130D1F08CB770006865A /* ImageSlideshow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageSlideshow.framework; path = "../../Library/Developer/Xcode/DerivedData/xiaoMingBook-codxqcxxfrevpfffskddkontxolu/Build/Products/Debug-iphonesimulator/ImageSlideshow/ImageSlideshow.framework"; sourceTree = "<group>"; };
-		8457130F1F08CB7D0006865A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
 		845713111F08CB800006865A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/xiaoMingBook-codxqcxxfrevpfffskddkontxolu/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		845713141F08CC2C0006865A /* BSNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSNav.swift; sourceTree = "<group>"; };
 		845713181F08CC840006865A /* mainTBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTBVC.swift; sourceTree = "<group>"; };
 		8457131A1F08CFB00006865A /* BSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTableVC.swift; sourceTree = "<group>"; };
 		8457131C1F08DE670006865A /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
-		96B44490D28260A8E05BFACA /* Pods_xiaoMingBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoMingBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845BBC4F1F165AAF00927F35 /* stacksItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksItemVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +56,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				845713121F08CB800006865A /* Alamofire.framework in Frameworks */,
-				845713101F08CB7D0006865A /* SDWebImage.framework in Frameworks */,
 				8457130E1F08CB770006865A /* ImageSlideshow.framework in Frameworks */,
 				8457130C1F08CB750006865A /* AlamofireImage.framework in Frameworks */,
-				8457130A1F08CB710006865A /* AFNetworking.framework in Frameworks */,
-				E527C42704A93CB4D9588C81 /* Pods_xiaoMingBook.framework in Frameworks */,
+				8D9442902AEC675247C64D9C /* Pods_xiaoMingBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,11 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				845713111F08CB800006865A /* Alamofire.framework */,
-				8457130F1F08CB7D0006865A /* SDWebImage.framework */,
 				8457130D1F08CB770006865A /* ImageSlideshow.framework */,
 				8457130B1F08CB750006865A /* AlamofireImage.framework */,
-				845713091F08CB710006865A /* AFNetworking.framework */,
-				96B44490D28260A8E05BFACA /* Pods_xiaoMingBook.framework */,
+				0560A93D3E1658B2CAEE3DA6 /* Pods_xiaoMingBook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +92,8 @@
 				8433B4F81F0A90D000A99A1D /* stacksTableVC.swift */,
 				8433B4FA1F0A914D00A99A1D /* stacksCell.swift */,
 				8433B4FB1F0A914D00A99A1D /* stacksCell.xib */,
+				842D6B3A1F0E8795007306BF /* ViewController1.swift */,
+				845BBC4F1F165AAF00927F35 /* stacksItemVC.swift */,
 			);
 			name = stacks;
 			sourceTree = "<group>";
@@ -266,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842D6B3B1F0E8795007306BF /* ViewController1.swift in Sources */,
 				8433B4F11F0A8E6300A99A1D /* stacksNav.swift in Sources */,
 				8457131D1F08DE670006865A /* NetWorkTools.swift in Sources */,
 				845713151F08CC2C0006865A /* BSNav.swift in Sources */,
@@ -273,6 +272,7 @@
 				8433B4FC1F0A914D00A99A1D /* stacksCell.swift in Sources */,
 				845712F81F08C8F40006865A /* AppDelegate.swift in Sources */,
 				845713191F08CC840006865A /* mainTBVC.swift in Sources */,
+				845BBC501F165AAF00927F35 /* stacksItemVC.swift in Sources */,
 				8457131B1F08CFB00006865A /* BSTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +394,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SVProgressHUD",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = xiaoMingBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -413,6 +415,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SVProgressHUD",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = xiaoMingBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
