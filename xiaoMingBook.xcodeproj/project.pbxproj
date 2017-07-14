@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		744A63C0CD573A61F107006F /* Pods_xiaoMingBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA283FEF45FFAE6E9ED7BF3 /* Pods_xiaoMingBook.framework */; };
 		842D6B3B1F0E8795007306BF /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D6B3A1F0E8795007306BF /* ViewController1.swift */; };
 		8433B4F11F0A8E6300A99A1D /* stacksNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B4F01F0A8E6300A99A1D /* stacksNav.swift */; };
 		8433B4F91F0A90D000A99A1D /* stacksTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433B4F81F0A90D000A99A1D /* stacksTableVC.swift */; };
@@ -23,12 +24,16 @@
 		8457131B1F08CFB00006865A /* BSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457131A1F08CFB00006865A /* BSTableVC.swift */; };
 		8457131D1F08DE670006865A /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457131C1F08DE670006865A /* NetWorkTools.swift */; };
 		845BBC501F165AAF00927F35 /* stacksItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BBC4F1F165AAF00927F35 /* stacksItemVC.swift */; };
-		8D9442902AEC675247C64D9C /* Pods_xiaoMingBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0560A93D3E1658B2CAEE3DA6 /* Pods_xiaoMingBook.framework */; };
+		84E5518A1F1859E9006F11FE /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E551871F1859E9006F11FE /* AFNetworking.framework */; };
+		84E5518B1F1859E9006F11FE /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E551881F1859E9006F11FE /* SDWebImage.framework */; };
+		84E5518C1F1859E9006F11FE /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E551891F1859E9006F11FE /* SVProgressHUD.framework */; };
+		84E5518F1F1895F7006F11FE /* stacksItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5518D1F1895F7006F11FE /* stacksItemCell.swift */; };
+		84E551901F1895F7006F11FE /* stacksItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E5518E1F1895F7006F11FE /* stacksItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0560A93D3E1658B2CAEE3DA6 /* Pods_xiaoMingBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoMingBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3796FAEC0B2FD853FFE00C5C /* Pods-xiaoMingBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoMingBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook.release.xcconfig"; sourceTree = "<group>"; };
+		4BA283FEF45FFAE6E9ED7BF3 /* Pods_xiaoMingBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xiaoMingBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		839F42B5DBDDCD72B46F9B43 /* Pods-xiaoMingBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaoMingBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaoMingBook/Pods-xiaoMingBook.debug.xcconfig"; sourceTree = "<group>"; };
 		842D6B3A1F0E8795007306BF /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		8433B4F01F0A8E6300A99A1D /* stacksNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksNav.swift; sourceTree = "<group>"; };
@@ -48,6 +53,11 @@
 		8457131A1F08CFB00006865A /* BSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTableVC.swift; sourceTree = "<group>"; };
 		8457131C1F08DE670006865A /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
 		845BBC4F1F165AAF00927F35 /* stacksItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksItemVC.swift; sourceTree = "<group>"; };
+		84E551871F1859E9006F11FE /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		84E551881F1859E9006F11FE /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		84E551891F1859E9006F11FE /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "Pods/../build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
+		84E5518D1F1895F7006F11FE /* stacksItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stacksItemCell.swift; sourceTree = "<group>"; };
+		84E5518E1F1895F7006F11FE /* stacksItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = stacksItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +65,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E5518A1F1859E9006F11FE /* AFNetworking.framework in Frameworks */,
+				84E5518B1F1859E9006F11FE /* SDWebImage.framework in Frameworks */,
+				84E5518C1F1859E9006F11FE /* SVProgressHUD.framework in Frameworks */,
 				845713121F08CB800006865A /* Alamofire.framework in Frameworks */,
 				8457130E1F08CB770006865A /* ImageSlideshow.framework in Frameworks */,
 				8457130C1F08CB750006865A /* AlamofireImage.framework in Frameworks */,
-				8D9442902AEC675247C64D9C /* Pods_xiaoMingBook.framework in Frameworks */,
+				744A63C0CD573A61F107006F /* Pods_xiaoMingBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +81,13 @@
 		4B12558A04D81FBF4241FC55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84E551871F1859E9006F11FE /* AFNetworking.framework */,
+				84E551881F1859E9006F11FE /* SDWebImage.framework */,
+				84E551891F1859E9006F11FE /* SVProgressHUD.framework */,
 				845713111F08CB800006865A /* Alamofire.framework */,
 				8457130D1F08CB770006865A /* ImageSlideshow.framework */,
 				8457130B1F08CB750006865A /* AlamofireImage.framework */,
-				0560A93D3E1658B2CAEE3DA6 /* Pods_xiaoMingBook.framework */,
+				4BA283FEF45FFAE6E9ED7BF3 /* Pods_xiaoMingBook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,6 +110,8 @@
 				8433B4FB1F0A914D00A99A1D /* stacksCell.xib */,
 				842D6B3A1F0E8795007306BF /* ViewController1.swift */,
 				845BBC4F1F165AAF00927F35 /* stacksItemVC.swift */,
+				84E5518D1F1895F7006F11FE /* stacksItemCell.swift */,
+				84E5518E1F1895F7006F11FE /* stacksItemCell.xib */,
 			);
 			name = stacks;
 			sourceTree = "<group>";
@@ -206,6 +224,7 @@
 				845713021F08C8F40006865A /* LaunchScreen.storyboard in Resources */,
 				845712FF1F08C8F40006865A /* Assets.xcassets in Resources */,
 				8433B4FD1F0A914D00A99A1D /* stacksCell.xib in Resources */,
+				84E551901F1895F7006F11FE /* stacksItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +291,7 @@
 				8433B4FC1F0A914D00A99A1D /* stacksCell.swift in Sources */,
 				845712F81F08C8F40006865A /* AppDelegate.swift in Sources */,
 				845713191F08CC840006865A /* mainTBVC.swift in Sources */,
+				84E5518F1F1895F7006F11FE /* stacksItemCell.swift in Sources */,
 				845BBC501F165AAF00927F35 /* stacksItemVC.swift in Sources */,
 				8457131B1F08CFB00006865A /* BSTableVC.swift in Sources */,
 			);

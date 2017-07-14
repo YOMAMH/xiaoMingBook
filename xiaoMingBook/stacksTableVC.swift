@@ -29,15 +29,17 @@ class stacksTableVC: UITableViewController {
             let status = resObj["status"] as! Int;
             if (status == 200) {
                dataSet = resObj["dataSet"] as AnyObject;
-                // 加载xib
-                let cellNib = UINib(nibName: "stacksCell", bundle: nil);
-                self.tableView.register(cellNib, forCellReuseIdentifier: "cell");
-                // 取消cell分割线
-                self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none;
                 self.tableView.reloadData();
 
             }
         }
+        
+        // 加载xib
+        let cellNib = UINib(nibName: "stacksCell", bundle: nil);
+        self.tableView.register(cellNib, forCellReuseIdentifier: "cell");
+        // 取消cell分割线
+        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none;
+
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -74,6 +76,7 @@ class stacksTableVC: UITableViewController {
         let str = (dataSet[indexPath.row] as AnyObject)["icon"] as? String;
         cell.typeIcon.sd_setImage(with: NSURL(string: str!)! as URL);
         
+        
 
         return cell
     }
@@ -83,10 +86,8 @@ class stacksTableVC: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let bookType = (dataSet[indexPath.row] as AnyObject)["category_title"] as? String;
-        
         let bookItem = stacksItemVC();
-        bookItem.booItemTitle = bookType!;
+        bookItem.booItemTitle = indexPath.row + 1;
         self.navigationController?.pushViewController(bookItem, animated: true);
     
     }
